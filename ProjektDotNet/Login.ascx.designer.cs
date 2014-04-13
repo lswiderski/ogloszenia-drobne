@@ -10,42 +10,42 @@
 namespace ProjektDotNet {
     
     
-    public partial class Main {
+    public partial class Login {
         
         /// <summary>
-        /// head control.
+        /// TextBoxLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxLogin;
         
         /// <summary>
-        /// form1 control.
+        /// TextBoxHaslo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxHaslo;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// zapamietajCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.CheckBox zapamietajCheckBox;
         
         /// <summary>
-        /// Login1 control.
+        /// Zaloguj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ProjektDotNet.Login Login1;
+        protected global::System.Web.UI.WebControls.Button Zaloguj;
     }
 }

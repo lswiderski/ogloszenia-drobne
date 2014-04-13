@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ProjektDotNet.Main" %>
 
+<%@ Register src="Login.ascx" tagname="Login" tagprefix="uc1" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -7,6 +9,7 @@
     <title>Ogłoszenia Drobne</title>
     <link href="content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="content/bootstrap-responsive.min.css.css" rel="stylesheet" type="text/css" />
+    <link href="content/Style.css" rel="stylesheet" type="text/css" />
     <link href="http://getbootstrap.com/examples/blog/blog.css" rel="stylesheet">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -41,16 +44,19 @@
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                         
+                        
+                        
                         </asp:ContentPlaceHolder>
 
-          <ul class="pager">
-            <li><a href="#">Previous</a></li>
-            <li><a href="#">Next</a></li>
-          </ul>
+          
 
         </div><!-- /.blog-main -->
 
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+           <div class="sidebar-module sidebar-module-inset">
+               <uc1:Login ID="Login1" runat="server" />
+          
+          </div>
           <div class="sidebar-module sidebar-module-inset">
             <h4>Licznik Odwiedzin</h4>
             <p>Tutaj będzie znajdował się licznik odwiedzin</p>
